@@ -1,0 +1,15 @@
+#incude<stdio.h>
+main(){
+	int length_of_side;
+	int perimeter_of_square;
+	int area_of_square;
+	
+	printf("enter length of side\n");
+	scanf("%d",&length_of_side);
+	
+	perimeter_of_square=4*length_of_side;
+	area_of_square=length_of_side*length_of_side;
+	
+	printf("the perimeter of square is %d.",perimeter_of_square);
+	printf("the area of square is %d",area_of_square);
+}
